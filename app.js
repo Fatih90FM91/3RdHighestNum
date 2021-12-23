@@ -63,38 +63,3 @@ function thirdLargestNum(){
 
 // ===================================================================================
 
-// var maxIndex = new Array();
-// var maxPoints = new Array();
-// var scoreByPattern = new Array(93, 17, 56, 91, 98, 33, 9, 38, 55, 78, 29, 81, 60);
-
-// function findLargest3() {
-//   maxPoints[0] = 0;
-//   maxPoints[1] = 0;
-//   maxPoints[2] = 0; 
-  
-//   for (i = 0; i < scoreByPattern.length; i++) {
-//     if (scoreByPattern[i] > maxPoints[0]) {
-//       maxPoints[0] = scoreByPattern[i];
-//       maxIndex[0] = i;
-//     }
-//   }
-
-//   for (i = 0; i < scoreByPattern.length; i++) {
-//     if (scoreByPattern[i] > maxPoints[1] && scoreByPattern[i] < maxPoints[0]) {
-//       maxPoints[1] = scoreByPattern[i];
-//       maxIndex[1] = i;
-//     }
-//   }
-
-//   for (i = 0; i < scoreByPattern.length; i++) {
-//     if (scoreByPattern[i] > maxPoints[2] && scoreByPattern[i] < maxPoints[1]) {
-//       maxPoints[2] = scoreByPattern[i];
-//       maxIndex[2] = i;
-//     }
-//   }
-
-//   console.log(scoreByPattern + "/******/" + maxPoints[0] + "/" + maxPoints[1] + "/" + maxPoints[2]);
-//   //alert(maxIndex);
-// }
-
-// findLargest3();
